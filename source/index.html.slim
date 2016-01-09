@@ -2,15 +2,16 @@
   .line
 =partial('partials/header')
 .container
-  .row.live-block
-    .spinner
-      .rect1
-      .rect2
-      .rect3
-      .rect4
-      .rect5
-    =partial('partials/live_row')
-    p.text-center.live Timeline
+  .row
+    .col-md-6.col-md-offset-3
+      .entry
+        .entry-body
+          =partial('partials/status')
+          =partial('partials/profiles')
+          p.text-center
+            span.glyphicon.glyphicon-envelope
+            |&nbsp;
+            =link_to "name@email.com", "mailto:name@email.com"
 
   -page_articles(blog_name = 'timeline').group_by { |a| a.date.strftime('%Y') }.to_a.each_with_index do |year_articles, index|
     -year, articles = year_articles
