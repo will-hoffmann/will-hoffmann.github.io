@@ -10,30 +10,6 @@ activate :blog do |blog|
   blog.prefix = "timeline"
 end
 
-activate :blog do |blog|
-  blog.name = "articles"
-  blog.prefix = "articles"
-end
-
-activate :blog do |blog|
-  blog.name = "blog"
-  blog.prefix = "blog"
-  blog.layout = "post"
-
-  # blog.permalink = "{year}/{month}/{day}/{title}.html"
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
-  # blog.taglink = "tags/{tag}.html"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/{num}"
-end
-
 ###
 # Compass
 ###

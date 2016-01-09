@@ -1,0 +1,7 @@
+---
+title: Sample Entry
+date: 2015-12-19 21:36 UTC
+type: holiday
+size: 10
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lectus felis. Suspendisse ipsum erat, sollicitudin ut tortor sed, pulvinar viverra velit. Nam vel nulla ut magna gravida congue. Ut elementum fringilla nisi, et rhoncus quam eleifend id. Etiam vitae rutrum erat. Suspendisse eu nisi a magna congue elementum ac et urna. Nullam luctus, sapien a pulvinar condimentum, dui ex iaculis ante, id semper massa nibh vitae quam. Maecenas at nisi ut nisi mattis aliquam. Nullam eu erat arcu.

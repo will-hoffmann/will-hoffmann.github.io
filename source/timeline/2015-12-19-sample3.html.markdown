@@ -1,0 +1,7 @@
+---
+title: Sample Entry
+date: 2015-12-19 21:36 UTC
+type: education
+size: 10
+---
+Suspendisse porttitor ultrices erat, non efficitur tortor interdum nec. Vivamus nisl enim, lobortis nec finibus mattis, laoreet at metus. Duis lorem diam, convallis sit amet placerat in, efficitur at augue. Mauris fermentum purus neque, egestas efficitur erat tempor nec. Aliquam tempor vulputate orci, ac condimentum tellus volutpat ac. Maecenas placerat nibh fringilla, pretium ex quis, vehicula purus. Nullam cursu

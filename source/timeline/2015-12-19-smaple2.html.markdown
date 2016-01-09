@@ -1,0 +1,7 @@
+---
+title: Sample Entry
+date: 2015-12-19 21:36 UTC
+type: project
+size: 10
+---
+Sample entry of type `project`, can also have things like `education` and `holiday`.
