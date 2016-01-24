@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'>
+    <title>willhoffmann.co.uk</title>
+    <link href="/stylesheets/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/timeline.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/entry.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/icons.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/social.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/live.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/image-row.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/spinner.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main" role="main">
+      <h1>Creating an entry</h1>
+
+<p>To create a new entry in the timeline <code>middleman article --blog timeline &quot;Title of the entry&quot;</code></p>
+
+<p>Open <code>source/timeline/DATE_TODAY.*.html.markdown</code>, can use <code>Ctrl+E</code></p>
+
+<p>Replace <code>tags:</code> with <code>type: project</code> or other entry type (event, award, holiday, project, competition, teaching, <strong>education</strong>, learning, sport, <strong>work</strong>)</p>
+
+<p>Enter the content in Markdown format for the entry below the 2nd <code>---</code></p>
+
+<p>Save the file.</p>
+
+<h1>Moving an entry</h1>
+
+<p>Rename the file in source/timeline/ENTRY to have the correct date. YYYY-MM-DD</p>
+
+<p>Open the new file and use the same date in the <code>date: ...</code> line at the top. Time is likely irrelvant and can be left alone.kkk</p>
+
+<h1>Running the site while you are working on it</h1>
+
+<p>enter in the terminal <code>middleman -p $PORT</code></p>
+
+<p>visit: <a href="https://personal-website-will-hoffmann.c9users.io/">https://personal-website-will-hoffmann.c9users.io/</a> in a browser new tab</p>
+
+<h1>Saving changes</h1>
+
+<p>type <code>git add --all</code> in the terminal</p>
+
+<p>then type <code>git commit -m &quot;MESSSAGE ABOUT WHAT YOU CHANGED&quot;</code></p>
+
+<p>then publish the site with <code>bash deploy.sh</code> in the terminal.</p>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/javascripts/main.js" type="text/javascript"></script>
+  </body>
+</html>

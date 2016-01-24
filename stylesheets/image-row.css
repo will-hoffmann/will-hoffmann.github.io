@@ -1,0 +1,11 @@
+/* line 1, /home/ubuntu/workspace/source/stylesheets/image-row.scss */
+.image-row {
+  display: none; }
+
+@media (min-width: 768px) {
+  /* line 6, /home/ubuntu/workspace/source/stylesheets/image-row.scss */
+  .image-row {
+    display: block; }
+    /* line 8, /home/ubuntu/workspace/source/stylesheets/image-row.scss */
+    .image-row img {
+      width: 100%; } }

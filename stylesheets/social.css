@@ -1,0 +1,24 @@
+/* line 1, /home/ubuntu/workspace/source/stylesheets/social.scss */
+.social-icon {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin: 2px;
+  width: 35px;
+  height: 35px; }
+  /* line 8, /home/ubuntu/workspace/source/stylesheets/social.scss */
+  .social-icon:hover {
+    border-color: LightGrey; }
+  /* line 12, /home/ubuntu/workspace/source/stylesheets/social.scss */
+  .social-icon.small {
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: -2px;
+    margin-right: 2px;
+    margin-top: -1px; }
+
+/* line 22, /home/ubuntu/workspace/source/stylesheets/social.scss */
+.profiles {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px; }

@@ -1,0 +1,60 @@
+/* line 1, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon {
+  margin-top: 1px;
+  font-size: 0.9em; }
+
+/* line 6, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.index0 .glyphicon, .index1 .glyphicon {
+  float: left;
+  margin-right: 8px; }
+
+@media (min-width: 990px) {
+  /* line 13, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+  .index0 .glyphicon {
+    float: right;
+    margin-left: 8px;
+    margin-right: 0px; } }
+
+/* line 21, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-education {
+  color: SeaGreen; }
+
+/* line 22, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-briefcase {
+  color: CornflowerBlue; }
+
+/* line 23, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-console {
+  color: Coral; }
+
+/* line 24, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-star {
+  color: Gold; }
+
+/* line 25, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-apple {
+  color: YellowGreen; }
+
+/* line 26, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-blackboard {
+  color: PaleVioletRed; }
+
+/* line 27, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-hourglass {
+  color: RebeccaPurple; }
+
+/* line 28, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-stats {
+  color: SkyBlue; }
+
+/* line 29, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-calendar {
+  color: Tomato; }
+
+/* line 30, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-globe {
+  color: LimeGreen; }
+
+/* line 32, /home/ubuntu/workspace/source/stylesheets/icons.scss */
+.glyphicon-new-window {
+  color: LightGrey; }

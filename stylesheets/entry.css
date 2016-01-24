@@ -1,0 +1,56 @@
+/* line 1, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+.later {
+  opacity: 0;
+  margin-top: 40px; }
+
+/* line 6, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+.entry {
+  background-color: white;
+  margin: 10px 0px; }
+  /* line 10, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+  .entry .entry-header {
+    border: 1px solid #eee;
+    border-bottom: none;
+    padding: 5px 5px 10px 5px; }
+    /* line 15, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+    .entry .entry-header h2 {
+      font-size: 1.4em;
+      margin: 2px 0px -2px 0px; }
+      @media (max-width: 400px) {
+        /* line 15, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+        .entry .entry-header h2 {
+          font-size: 1.2em; } }
+      @media (max-width: 350px) {
+        /* line 15, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+        .entry .entry-header h2 {
+          font-size: 1em; } }
+  /* line 29, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+  .entry .entry-body {
+    font-size: 1em;
+    border-radius: 2px;
+    border: 1px solid LightGrey;
+    padding: 10px; }
+    /* line 35, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+    .entry .entry-body p:last-child {
+      margin-bottom: 0px; }
+  @media (min-width: 990px) {
+    /* line 42, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+    .entry.index0 .entry-header {
+      text-align: right;
+      border-top-right-radius: 3px;
+      border-left: none; }
+    /* line 48, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+    .entry.index0 .entry-body {
+      text-align: right; } }
+  /* line 55, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+  .entry.index1 .entry-header {
+    border-top-left-radius: 3px;
+    border-right: none; }
+  @media (max-width: 990px) {
+    /* line 63, /home/ubuntu/workspace/source/stylesheets/entry.scss */
+    .entry.index0 .entry-header, .entry.index1 .entry-header {
+      border: 1px solid #eee;
+      border-bottom: none;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+      margin-bottom: -1px; } }
